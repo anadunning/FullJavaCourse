@@ -1,0 +1,24 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.print("Hello World! ");  	// print()
+		System.out.println("Good morning!"); 	// println() - prints and move the cursor to the next line
+		
+		int y = 32;
+		double x = 10.35784;
+		
+		System.out.println(y);
+		System.out.println(x);
+												// printf() - prints formatted output
+		System.out.printf("%.2f%n", x);			// %.2f - prints the x variable with two decimals
+		System.out.printf("%.4f%n", x);			//  %n or \n - move to next line
+												// %.4f - prints the x variable with four decimals
+		Locale.setDefault(Locale.UK);
+		System.out.printf("%.4f\n", x);
+		
+	}
+
+}
