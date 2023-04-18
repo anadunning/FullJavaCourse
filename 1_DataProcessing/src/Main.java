@@ -62,8 +62,10 @@ public class Main {
 		System.out.println("=============== How to clear the reading buffer =================");
 		int g;
 		String s1, s2, s3;
+		System.out.println("Enter an int:");
 		g = sc.nextInt();
 		
+		System.out.println("Now, enter three strings. You can enter more than one word now:");
 		sc.nextLine();	// You need to enter this extra nextLine to consume the line break.
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
