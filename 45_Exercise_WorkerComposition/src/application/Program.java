@@ -18,7 +18,7 @@ public class Program {
 		
 		Locale.setDefault(Locale.UK);
 		Scanner sc = new Scanner(System.in);
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); 
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
 		System.out.print("Enter department's name: ");
 		String department = sc.nextLine();
