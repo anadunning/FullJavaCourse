@@ -48,9 +48,7 @@ public class Program {
 		
 		for (TaxPayer payer : list) {
 			
-			double tax = payer.tax();
-//			System.out.println(payer.getName() + ": $ " + String.format("%.2f", payer.tax()));
-			
+			double tax = payer.tax();			
 			System.out.println(payer.getName() + ": $ " + String.format("%.2f", tax));
 			sumTaxes += tax;
 		}
