@@ -10,7 +10,6 @@ public class Program {
 		method1();
 		
 		System.out.println("End of program.");
-
 	}
 	
 	public static void method1() {
