@@ -28,7 +28,7 @@ public class Program {
         String h= "Julie";
   
         if(!g.equals(h)){    //checking  the equality of objects using equals() method  
-            System.out.println("\nc & d are Un-equal variables, and their respective hashvalues are:" + " "+ g.hashCode() + " & " + h.hashCode());  
+            System.out.println("\ng & h are Un-equal variables, and their respective hashvalues are:" + " "+ g.hashCode() + " & " + h.hashCode());  
         }
 	}
 }
